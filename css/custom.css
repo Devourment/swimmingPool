@@ -1,0 +1,182 @@
+/* === Variablen === */
+:root {
+    --primary-color: #7f0f41;
+    --secondary-color: #ff6365;
+    --text-color: #4a4e57;
+    --heading-color: #45152a;
+    --heading-secondary-color: #212934;
+    --basic-font: Montserrat, Helvetica, Arial, sans-serif;
+    --heading-font: "Libre Caslon Text", Georgia, "Times New Roman", Times, serif;
+    --nav-bg-color: var(--heading-color);
+}
+
+/* === Basics === */
+body {
+    font-family: var(--basic-font);
+    color: var(--text-color);
+}
+.btn {
+    border-radius: 0;
+    padding: 17px 40px;
+}
+.btn-danger {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-danger:hover, .btn-danger:active {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgb(var(--bs-body-color-rgb)) !important;
+}
+
+/* Typografie */
+h1, h2, h3, h4 {font-family: var(--heading-font); }
+h1 { font-size: 72px; }
+.h1 {
+    font-size: 60px;
+    color: var(--heading-color);
+    margin-bottom: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+    h1 {font-size: 100px;}
+}
+h4 {
+    font-size: 28px;
+    margin-top: 1.2rem;
+}
+/* === Page Header === */
+#page_header {
+    background: url("../images/header-background-scaled.webp") var(--primary-color) no-repeat top center;
+    background-size: cover;
+    min-height: 193px;
+    padding: 40px 30px;
+}
+
+.jdb-icon-wrapper {
+    padding: 15px 20px;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: .5rem;
+    width: 50px;
+    height: 50px;
+    position:relative;
+}
+.jdb-icon-wrapper > .fa-cart-shopping {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 11px;
+}
+
+/* === Navbar Main === */
+#main_nav {background-color: var(--nav-bg-color);}
+#main_nav .nav-item {
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: var(--secondary-color) !important ;
+}
+
+/* === Section Hero === */
+
+#hero {
+    width: 100%;
+    min-height: 679px;
+    background: url("../images/hero-background-full-scaled.webp") no-repeat top center;
+    background-size: cover;
+    padding: 80px 30px;
+}
+#hero .lead { font-size: 22px;}
+
+@media screen and (min-width: 768px){
+    #hero {padding: 210px 30px;}
+}
+/* === Section Shopping === */
+#shopping {
+    background-image: linear-gradient(180deg, #1f0a13 18%, #fff 0%);
+}
+#shopping .card-header {
+    background: url("../images/calltoaction-background.webp") no-repeat top left;
+}
+
+#shopping img {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#shopping h2 {
+    font-size: 35px;
+    color: var(--primary-color);
+}
+
+/* === Section Special === */
+#special {
+    padding: 90px 30px;
+}
+.jdb-price {color: var(--secondary-color);}
+
+/* === Section Subscribe === */
+#subscribe {
+    background: url("../images/subscribe-background-scaled.webp") no-repeat bottom;
+    background-size: cover;
+    padding: 0 30px 20px;
+}
+@media screen and (min-width: 768px) {
+    #subscribe { padding: 160px 30px 340px;}
+}
+
+/* === Section Vineyards === */
+#vineyards {
+    background: url("../images/vineyard-tours-background-scaled.webp") no-repeat bottom;
+    background-size: cover;
+}
+#vineyards .container {
+    padding: 160px 30px;
+}
+
+/* === Section: News === */
+#news {
+    padding: 120px 30px;
+}
+
+/* === Footer === */
+#page_footer {
+    background: url("../images/footer-background-scaled.webp") no-repeat bottom center;
+    background-size: cover;
+    padding: 90px 30px;
+    font-size: 13px;
+}
+
+#page_footer .row:first-of-type {
+    margin-bottom: 64px;
+}
+#page_footer .btn-danger {
+    background-color: var(--heading-color);
+    border-color: var(--heading-color);
+}
+#page_footer .btn-danger:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+#jdb_footer_cards {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width:768px) {
+    #jdb_footer_cards {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+/* === Back to Top Button === */
+#backtotop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    transition: opacity 600ms ease-in-out;
+}
