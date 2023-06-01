@@ -33,34 +33,92 @@
 
     <nav id="page_nav" class="navbar navbar-expand-md navbar-light bg-warning py-3">
         <div class="container-fluid justify-content-center">
-          <a class="navbar-brand" href="/index.html"><span class="fa-solid fa-water-ladder" ></span>Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto w-100 justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/ueber-uns.html">&Uuml;ber uns</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/kurse.html">Kurse</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/kulinarisches.html">Kulinarisches</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/kontakt.html">Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/newsletter.html">Newsletter</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="/index.html"><span class="fa-solid fa-water-ladder"></span>Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto w-100 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/ueber-uns.html">&Uuml;ber uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kurse.html">Kurse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kulinarisches.html">Kulinarisches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/newsletter.html">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <main id="page_main" class="text-center">
-        <p>Kontakt</p>
+
+        <div class="container">
+            <h2>Kontaktieren Sie uns:</h2>
+            <form action="https://test.jaderbass.de/formtester.php" class="row">
+                <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="text" name="Vorname" id="floatingInput" class="form-control"
+                            placeholder="Vorname">
+                        <label for="Vorname">Vorname</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" name="Nachname" id="floatingInput" class="form-control"
+                            placeholder="Nachname">
+                        <label for="Nachname">Nachname</label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="email" name="E-Mail" id="floatingInput" class="form-control"
+                            placeholder="#">
+                        <label for="Mail-Adresse">E-Mail-Adresse</label>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input type="password" name="Passwort" id="floatingPassword" class="form-control"
+                            placeholder="#">
+                        <label for="Passwort">Passwort</label>
+                    </div>
+
+                </div>
+                
+                <div class="col">
+                    <div class="form-floating">
+                        <textarea name="Nachricht" id="floatingMessage" placeholder="#" class="form-control"
+                            style="height:132px;"></textarea>
+                        <label for="Mitteilung">Ihre Nachricht</label>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" name="ds" id="ds" class="form-check-input" required>
+                        <label for="Datenschutz" class="form-check-label">Ich habe die Datenschutzerklärung gelesen und akzeptiert</label>
+    
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">Senden</button> <!-- Absendebutton -->
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+
+
+
     </main>
 
     <footer id="page_footer" class="text-center">
@@ -73,7 +131,7 @@
                         </div>
                         <div class="col">
                             <p>Tel.Nummer: <br>03523/1234131</p>
-                        </div>                  
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -90,7 +148,7 @@
                             <h4>Impressum</h4>
                         </div>
                         <div class="col">
-                            <p>Oehm &amp; Pregl GbR<br>Maximilian-Welsch-Straße 2<br>99084 Erfurt</p>
+                            <p>Oehm &amp; Pregel GbR<br>Maximilian-Welsch-Straße 2<br>99084 Erfurt</p>
                         </div>
                     </div>
                 </div>
@@ -98,8 +156,8 @@
         </div>
     </footer>
 
-        <!-- Bootstrap JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
