@@ -24,17 +24,27 @@ filter: none;
 }
 /* === Main === */
 #page_main {
-    min-height: 100vh;
+    
     background: var(--background-color);
+}
+#page_main .mo-main {
+    background: url("../images/PoolDrone2.jpg") no-repeat bottom;
+    background-size:cover;
+    min-width: 100%;
+    min-height: 300px;
+    padding: 40px;
+}
+@media screen and (min-width: 768px){
+    #page_main .mo-main {padding: 410px 30px;}
 }
 /* === Footer === */
 #page_footer {
     background: #222;
     min-height: 200px;
-    color: white    ;
+    color: white;
 }
 /* === Carousel === */
-.mo_carousel {
+.mo-carousel {
     margin: 20px;
     
 }
