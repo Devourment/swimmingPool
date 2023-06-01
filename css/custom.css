@@ -1,5 +1,11 @@
 :root{
     --background-color: #58cca5;
+    --basic-font:Roboto;
+    --basic-color: ;
+}
+/* === Typographie === */
+body {
+    font-family: var(--basic-font);
 }
 /* === Header === */
 #page_header {
