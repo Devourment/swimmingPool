@@ -65,13 +65,16 @@
         <div class="container">
             <h2>Kontaktieren Sie uns:</h2>
             <form action="https://test.jaderbass.de/formtester.php" class="row">
-                <div class="col">
+
+                <div class="col col-12 col-md-4">
                     <div class="form-floating mb-3">
                         <input type="text" name="Vorname" id="floatingInput" class="form-control"
                             placeholder="Vorname">
                         <label for="Vorname">Vorname</label>
-                    </div>
+                    </div>                    
+                </div>
 
+                <div class="col col-12 col-md-4">
                     <div class="form-floating mb-3">
                         <input type="text" name="Nachname" id="floatingInput" class="form-control"
                             placeholder="Nachname">
@@ -79,29 +82,26 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col col-12 col-md-4">
                     <div class="form-floating mb-3">
                         <input type="email" name="E-Mail" id="floatingInput" class="form-control"
                             placeholder="#">
                         <label for="Mail-Adresse">E-Mail-Adresse</label>
-                    </div>
+                    </div>        
                     
-                    <div class="form-floating mb-3">
-                        <input type="password" name="Passwort" id="floatingPassword" class="form-control"
-                            placeholder="#">
-                        <label for="Passwort">Passwort</label>
-                    </div>
 
                 </div>
                 
-                <div class="col">
+                <div class="col col-12">
                     <div class="form-floating">
                         <textarea name="Nachricht" id="floatingMessage" placeholder="#" class="form-control"
                             style="height:132px;"></textarea>
                         <label for="Mitteilung">Ihre Nachricht</label>
-                    </div>
+                    </div>                   
+                </div>
 
-                    <div class="mb-3 form-check">
+                <div class="col col-5 text-center">
+                    <div class="form-check mb-3">
                         <input type="checkbox" name="ds" id="ds" class="form-check-input" required>
                         <label for="Datenschutz" class="form-check-label">Ich habe die Datenschutzerklärung gelesen und akzeptiert</label>
     
@@ -112,11 +112,6 @@
 
             </form>
         </div>
-
-
-
-
-
 
 
     </main>
