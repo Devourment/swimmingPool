@@ -1,12 +1,22 @@
 :root{
     --background-color: #58cca5;
     --basic-font:Roboto;
-    --basic-color: ;
+    --basic-color: #684e00;
+    
 }
 /* === Typographie === */
 body {
     font-family: var(--basic-font);
 }
+
+/* === Basics === */
+h1, h2, h3, h4  {
+    color: var(--basic-color);
+}
+h1, h2 {
+    font-size: 50px;
+}
+
 /* === Header === */
 #page_header {
     background: url("../images/header2.jpg") no-repeat top;
@@ -33,16 +43,7 @@ filter: none;
     
     background: var(--background-color);
 }
-#page_main .mo-main {
-    background: url("../images/PoolDrone2.jpg") no-repeat bottom;
-    background-size:cover;
-    min-width: 100%;
-    min-height: 300px;
-    padding: 40px;
-}
-@media screen and (min-width: 768px){
-    #page_main .mo-main {padding: 410px 30px;}
-}
+
 /* === Footer === */
 #page_footer {
     background: #222;
@@ -54,3 +55,35 @@ filter: none;
     margin: 20px;
     
 }
+/* === Home === */
+.mo-main-btn {
+    padding-top: 30px;
+}
+.mo-btn {
+    border-radius: 60%;
+    border-width: 10px;
+}
+.mo-btn:hover {
+    background-color: red;
+    border-color: #17a2b8;
+    border-width: 10px;
+}
+#page_main .mo-main {
+    background: url("../images/PoolDrone2.jpg") no-repeat bottom;
+    background-size:cover;
+    min-width: 100%;
+    min-height: 300px;
+    padding: 40px;
+}
+@media screen and (min-width: 768px){
+    #page_main .mo-main {padding: 220px 30px;}
+}
+/* === Über uns === */
+
+/* === Kurse === */
+
+/* === Kulinarisches === */
+
+/* === Kontakt === */
+
+/* === Newsletter === */
