@@ -1,3 +1,6 @@
+:root{
+    --background-color: #58cca5;
+}
 /* === Header === */
 #page_header {
     background: url("../images/header2.jpg") no-repeat top;
@@ -22,6 +25,7 @@ filter: none;
 /* === Main === */
 #page_main {
     min-height: 100vh;
+    background: var(--background-color);
 }
 /* === Footer === */
 #page_footer {
