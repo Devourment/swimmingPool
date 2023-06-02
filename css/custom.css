@@ -75,7 +75,7 @@ h2 {
 
 /* === Main === */
 #page_main {
-
+    
     background: var(--background-color);
 }
 
@@ -99,6 +99,7 @@ h2 {
 }
 
 #page_main .mo-main {
+    background: url("../images/paradise_backround_2.jpg") no-repeat bottom;
     background-size: cover;
     min-width: 100%;
     min-height: 300px;
