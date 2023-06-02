@@ -16,7 +16,15 @@ h1, h2, h3, h4  {
 h1, h2 {
     font-size: 50px;
 }
-
+.mo-btn {
+    border-radius: 60%;
+    border-width: 10px;
+}
+.mo-btn:hover {
+    background-color: red;
+    border-color: #17a2b8;
+    border-width: 10px;
+}
 /* === Header === */
 #page_header {
     background: url("../images/header2.jpg") no-repeat top;
@@ -59,15 +67,7 @@ filter: none;
 .mo-main-btn {
     padding-top: 30px;
 }
-.mo-btn {
-    border-radius: 60%;
-    border-width: 10px;
-}
-.mo-btn:hover {
-    background-color: red;
-    border-color: #17a2b8;
-    border-width: 10px;
-}
+
 #page_main .mo-main {
     background: url("../images/PoolDrone2.jpg") no-repeat bottom;
     background-size:cover;
