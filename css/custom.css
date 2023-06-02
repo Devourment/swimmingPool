@@ -22,7 +22,11 @@ h1,
 h2 {
     font-size: 50px;
 }
-
+.mo-main p
+{
+    font-size: 19px;
+    
+}
 .mo-btn {
     border-radius: 60%;
     border-width: 10px;
@@ -74,10 +78,7 @@ h2 {
 }
 
 /* === Main === */
-#page_main {
-    
-    background: var(--background-color);
-}
+
 
 
 /* === Footer === */
@@ -103,12 +104,13 @@ h2 {
     background-size: cover;
     min-width: 100%;
     min-height: 300px;
-    padding: 40px;
+    padding: 30px;
+    
 }
 
 @media screen and (min-width: 768px) {
     #page_main .mo-main {
-        padding: 220px 30px;
+        padding: 22px 150px 150px 150px;
     }
 }
 
@@ -119,16 +121,5 @@ h2 {
 /* === Kulinarisches === */
 
 /* === Kontakt === */
-@media screen and (min-width: 768px) {
-    .mo-main-kontakt {
-        padding: 83px 0;
-    }
-}
 
 /* === Newsletter === */
-@media screen and (min-width: 768px) {
-    .mo-main-news {
-        padding: 110px 0;
-    }
-
-}
