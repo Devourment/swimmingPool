@@ -25,6 +25,16 @@ h1, h2 {
     border-color: #17a2b8;
     border-width: 10px;
 }
+.mo-cards {
+    background-color: #001;
+    opacity: 75%;
+}
+.mo-cards:hover {
+    opacity: 100%;
+}
+.mo-cards-head {
+    background-color: #001;
+}
 /* === Header === */
 #page_header {
     background: url("../images/header2.jpg") no-repeat top;
