@@ -1,40 +1,52 @@
-:root{
+:root {
     --background-color: #58cca5;
-    --basic-font:Roboto;
+    --basic-font: Roboto;
     --basic-color: #684e00;
-    
+
 }
+
 /* === Typographie === */
 body {
     font-family: var(--basic-font);
 }
 
 /* === Basics === */
-h1, h2, h3, h4  {
+h1,
+h2,
+h3,
+h4 {
     color: var(--basic-color);
 }
-h1, h2 {
+
+h1,
+h2 {
     font-size: 50px;
 }
+
 .mo-btn {
     border-radius: 60%;
     border-width: 10px;
 }
+
 .mo-btn:hover {
     background-color: red;
     border-color: #17a2b8;
     border-width: 10px;
 }
+
 .mo-cards {
     background-color: #001;
     opacity: 75%;
 }
+
 .mo-cards:hover {
     opacity: 100%;
 }
+
 .mo-cards-head {
     background-color: #001;
 }
+
 /* === Header === */
 #page_header {
     background: url("../images/header2.jpg") no-repeat top;
@@ -42,33 +54,31 @@ h1, h2 {
     background-size: cover;
     padding-top: 10px;
 }
+
 #page_header img {
-filter: brightness(60%);
+    filter: brightness(60%);
 }
+
 #page_header img:hover {
-filter: none;
+    filter: none;
 }
+
 /* === Navigation === */
 #page_nav {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #page_nav .nav-item {
     padding: 0 22px;
 }
+
 /* === Main === */
 #page_main {
-    
+
     background: var(--background-color);
 }
 
-.main-kontakt {
-    padding: 85px 0;
-}
-
-.main-news {
-    padding: 170px 0;
-}
 
 /* === Footer === */
 #page_footer {
@@ -76,26 +86,31 @@ filter: none;
     min-height: 200px;
     color: white;
 }
+
 /* === Carousel === */
 .mo-carousel {
     margin: 20px;
-    
+
 }
+
 /* === Home === */
 .mo-main-btn {
     padding-top: 30px;
 }
 
 #page_main .mo-main {
-    background: url("../images/PoolDrone2.jpg") no-repeat bottom;
-    background-size:cover;
+    background-size: cover;
     min-width: 100%;
     min-height: 300px;
     padding: 40px;
 }
-@media screen and (min-width: 768px){
-    #page_main .mo-main {padding: 220px 30px;}
+
+@media screen and (min-width: 768px) {
+    #page_main .mo-main {
+        padding: 220px 30px;
+    }
 }
+
 /* === Über uns === */
 
 /* === Kurse === */
@@ -103,5 +118,16 @@ filter: none;
 /* === Kulinarisches === */
 
 /* === Kontakt === */
+@media screen and (min-width: 768px) {
+    .mo-main-kontakt {
+        padding: 83px 0;
+    }
+}
 
 /* === Newsletter === */
+@media screen and (min-width: 768px) {
+    .mo-main-news {
+        padding: 110px 0;
+    }
+
+}
