@@ -62,6 +62,14 @@ filter: none;
     background: var(--background-color);
 }
 
+.main-kontakt {
+    padding: 85px 0;
+}
+
+.main-news {
+    padding: 170px 0;
+}
+
 /* === Footer === */
 #page_footer {
     background: #222;
